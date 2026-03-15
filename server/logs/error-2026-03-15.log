@@ -1,0 +1,18 @@
+2026-03-15 04:22:35 [error]: Zoom: Invalid credentials — check your .env file
+2026-03-15 04:26:31 [error]: Zoom: Invalid credentials — check your .env file
+2026-03-15 04:47:12 [error]: Zoom: Invalid credentials — check your .env file
+2026-03-15 19:59:49 [error]: Zoom: Invalid credentials — check your .env file
+2026-03-15 20:00:50 [error]: Zoom: Invalid credentials — check your .env file
+2026-03-15 20:03:03 [error]: Zoom: Invalid credentials — check your .env file
+2026-03-15 20:03:13 [error]: Zoom: Invalid credentials — check your .env file
+2026-03-15 20:03:25 [error]: Zoom: Invalid credentials — check your .env file
+2026-03-15 20:03:32 [error]: Zoom: Invalid credentials — check your .env file
+2026-03-15 20:03:53 [error]: Zoom: Invalid credentials — check your .env file
+2026-03-15 20:03:53 [error]: Required: ZOOM_ACCOUNT_ID, ZOOM_CLIENT_ID, ZOOM_CLIENT_SECRET
+2026-03-15 20:03:53 [error]: Startup check failed: Invalid Zoom credentials or account configuration
+2026-03-15 20:18:22 [error]: Zoom: Invalid credentials — check your .env file
+2026-03-15 20:18:22 [error]: Required: ZOOM_ACCOUNT_ID, ZOOM_CLIENT_ID, ZOOM_CLIENT_SECRET
+2026-03-15 20:18:22 [error]: Startup check failed: Invalid Zoom credentials or account configuration
+2026-03-15 20:20:45 [error]: Zoom: Invalid credentials — check your .env file
+2026-03-15 20:20:45 [error]: Required: ZOOM_ACCOUNT_ID, ZOOM_CLIENT_ID, ZOOM_CLIENT_SECRET
+2026-03-15 20:20:45 [error]: Startup check failed: Invalid Zoom credentials or account configuration

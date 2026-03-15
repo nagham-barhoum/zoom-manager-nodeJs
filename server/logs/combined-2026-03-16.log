@@ -1,0 +1,42 @@
+2026-03-16 01:53:16 [debug]: Cache EXPIRED: zoom:health
+2026-03-16 01:53:16 [debug]: Cache EXPIRED: zoom:access_token
+2026-03-16 01:53:16 [info]: Zoom: Fetching new access token
+2026-03-16 01:53:26 [debug]: Cache SET: zoom:health (TTL: 15s)
+2026-03-16 01:53:26 [http]: ::1 - - [15/Mar/2026:22:53:26 +0000] "GET /api/health HTTP/1.1" 200 347 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-16 01:53:45 [debug]: Cache EXPIRED: zoom:health
+2026-03-16 01:53:45 [info]: Zoom: Fetching new access token
+2026-03-16 01:53:46 [info]: Zoom: Fetching new access token
+2026-03-16 01:53:55 [debug]: Cache SET: zoom:health (TTL: 15s)
+2026-03-16 01:53:55 [http]: ::1 - - [15/Mar/2026:22:53:55 +0000] "GET /api/health HTTP/1.1" 200 348 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-16 01:53:56 [debug]: Cache SET: zoom:health (TTL: 15s)
+2026-03-16 01:53:56 [http]: ::1 - - [15/Mar/2026:22:53:56 +0000] "GET /api/health HTTP/1.1" 200 348 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-16 01:53:56 [debug]: Cache HIT: zoom:health
+2026-03-16 01:53:56 [http]: ::1 - - [15/Mar/2026:22:53:56 +0000] "GET /api/health HTTP/1.1" 200 348 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-16 01:54:16 [debug]: Cache EXPIRED: zoom:health
+2026-03-16 01:54:16 [info]: Zoom: Fetching new access token
+2026-03-16 01:54:26 [debug]: Cache SET: zoom:health (TTL: 15s)
+2026-03-16 01:54:26 [http]: ::1 - - [15/Mar/2026:22:54:26 +0000] "GET /api/health HTTP/1.1" 200 348 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-16 01:54:46 [debug]: Cache EXPIRED: zoom:health
+2026-03-16 01:54:46 [info]: Zoom: Fetching new access token
+2026-03-16 01:54:56 [debug]: Cache SET: zoom:health (TTL: 15s)
+2026-03-16 01:54:56 [http]: ::1 - - [15/Mar/2026:22:54:56 +0000] "GET /api/health HTTP/1.1" 200 348 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-16 01:55:19 [debug]: Cache EXPIRED: zoom:health
+2026-03-16 01:55:19 [info]: Zoom: Fetching new access token
+2026-03-16 01:55:19 [debug]: Cache SET: zoom:health (TTL: 15s)
+2026-03-16 01:55:19 [http]: ::1 - - [15/Mar/2026:22:55:19 +0000] "GET /api/health HTTP/1.1" 200 334 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-16 01:55:46 [debug]: Cache EXPIRED: zoom:health
+2026-03-16 01:55:46 [info]: Zoom: Fetching new access token
+2026-03-16 01:55:46 [debug]: Cache SET: zoom:health (TTL: 15s)
+2026-03-16 01:55:46 [http]: ::1 - - [15/Mar/2026:22:55:46 +0000] "GET /api/health HTTP/1.1" 200 334 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-16 01:56:16 [debug]: Cache EXPIRED: zoom:health
+2026-03-16 01:56:16 [info]: Zoom: Fetching new access token
+2026-03-16 01:56:16 [debug]: Cache SET: zoom:health (TTL: 15s)
+2026-03-16 01:56:16 [http]: ::1 - - [15/Mar/2026:22:56:16 +0000] "GET /api/health HTTP/1.1" 200 334 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-16 01:56:46 [debug]: Cache EXPIRED: zoom:health
+2026-03-16 01:56:46 [info]: Zoom: Fetching new access token
+2026-03-16 01:56:46 [debug]: Cache SET: zoom:health (TTL: 15s)
+2026-03-16 01:56:46 [http]: ::1 - - [15/Mar/2026:22:56:46 +0000] "GET /api/health HTTP/1.1" 200 334 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-16 01:57:43 [debug]: Cache EXPIRED: zoom:health
+2026-03-16 01:57:43 [info]: Zoom: Fetching new access token
+2026-03-16 01:57:43 [debug]: Cache SET: zoom:health (TTL: 15s)
+2026-03-16 01:57:43 [http]: ::1 - - [15/Mar/2026:22:57:43 +0000] "GET /api/health HTTP/1.1" 200 334 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"

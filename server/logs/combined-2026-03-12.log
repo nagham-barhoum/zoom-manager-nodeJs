@@ -1,0 +1,187 @@
+2026-03-12 04:19:35 [info]: 🚀 Server running on http://localhost:3001
+2026-03-12 04:19:35 [info]: 📋 Environment: development
+2026-03-12 04:19:35 [info]: 🔗 Accepting requests from: http://localhost:5173
+2026-03-12 04:22:15 [info]: Zoom: Fetching meetings list
+2026-03-12 04:22:15 [info]: Zoom: Fetching new access token
+2026-03-12 04:22:16 [debug]: Cache SET: zoom:access_token (TTL: 3500s)
+2026-03-12 04:22:17 [debug]: Cache SET: zoom:meetings:list (TTL: 60s)
+2026-03-12 04:22:17 [info]: Meetings fetched: 0 results
+2026-03-12 04:22:17 [http]: ::1 - - [12/Mar/2026:01:22:17 +0000] "GET /api/meetings HTTP/1.1" 200 36 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:22:17 [debug]: Cache HIT: zoom:meetings:list
+2026-03-12 04:22:17 [info]: Meetings fetched: 0 results
+2026-03-12 04:22:17 [http]: ::1 - - [12/Mar/2026:01:22:17 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:22:35 [info]: Zoom: Creating meeting "test meeting" at 2026-03-12T06:22:00
+2026-03-12 04:22:35 [debug]: Cache HIT: zoom:access_token
+2026-03-12 04:22:36 [debug]: Cache INVALIDATED: zoom:meetings:list (1 keys)
+2026-03-12 04:22:36 [info]: Meeting created: ID 81826425694
+2026-03-12 04:22:36 [http]: ::1 - - [12/Mar/2026:01:22:36 +0000] "POST /api/meetings HTTP/1.1" 201 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:24:49 [info]: Zoom: Deleting meeting 81826425694
+2026-03-12 04:24:49 [debug]: Cache HIT: zoom:access_token
+2026-03-12 04:24:50 [info]: Meeting deleted: ID 81826425694
+2026-03-12 04:24:50 [http]: ::1 - - [12/Mar/2026:01:24:50 +0000] "DELETE /api/meetings/81826425694 HTTP/1.1" 200 69 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:25:13 [info]: Zoom: Fetching meetings list
+2026-03-12 04:25:13 [debug]: Cache HIT: zoom:access_token
+2026-03-12 04:25:14 [debug]: Cache SET: zoom:meetings:list (TTL: 60s)
+2026-03-12 04:25:14 [info]: Meetings fetched: 0 results
+2026-03-12 04:25:14 [http]: ::1 - - [12/Mar/2026:01:25:14 +0000] "GET /api/meetings HTTP/1.1" 200 36 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:25:26 [info]: Zoom: Creating meeting "test" at 2026-03-12T07:25:00
+2026-03-12 04:25:26 [debug]: Cache HIT: zoom:access_token
+2026-03-12 04:25:27 [debug]: Cache INVALIDATED: zoom:meetings:list (1 keys)
+2026-03-12 04:25:27 [info]: Meeting created: ID 83481759510
+2026-03-12 04:25:27 [http]: ::1 - - [12/Mar/2026:01:25:27 +0000] "POST /api/meetings HTTP/1.1" 201 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:25:29 [info]: Zoom: Fetching meetings list
+2026-03-12 04:25:29 [debug]: Cache HIT: zoom:access_token
+2026-03-12 04:25:30 [debug]: Cache SET: zoom:meetings:list (TTL: 60s)
+2026-03-12 04:25:30 [info]: Meetings fetched: 1 results
+2026-03-12 04:25:30 [http]: ::1 - - [12/Mar/2026:01:25:30 +0000] "GET /api/meetings HTTP/1.1" 200 338 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:25:30 [debug]: Cache HIT: zoom:meetings:list
+2026-03-12 04:25:30 [info]: Meetings fetched: 1 results
+2026-03-12 04:25:30 [http]: ::1 - - [12/Mar/2026:01:25:30 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:25:49 [debug]: Cache HIT: zoom:meetings:list
+2026-03-12 04:25:49 [info]: Meetings fetched: 1 results
+2026-03-12 04:25:49 [http]: ::1 - - [12/Mar/2026:01:25:49 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:25:49 [debug]: Cache HIT: zoom:meetings:list
+2026-03-12 04:25:49 [info]: Meetings fetched: 1 results
+2026-03-12 04:25:49 [http]: ::1 - - [12/Mar/2026:01:25:49 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:25:54 [debug]: Cache HIT: zoom:meetings:list
+2026-03-12 04:25:55 [info]: Meetings fetched: 1 results
+2026-03-12 04:25:55 [http]: ::1 - - [12/Mar/2026:01:25:55 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:25:55 [debug]: Cache HIT: zoom:meetings:list
+2026-03-12 04:25:55 [info]: Meetings fetched: 1 results
+2026-03-12 04:25:55 [http]: ::1 - - [12/Mar/2026:01:25:55 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:25:57 [info]: Zoom: Deleting meeting 83481759510
+2026-03-12 04:25:57 [debug]: Cache HIT: zoom:access_token
+2026-03-12 04:25:58 [error]: Zoom API Error [404]: Meeting not found. | {"url":"/api/meetings/83481759510","method":"DELETE","zoomCode":3001}
+2026-03-12 04:25:58 [http]: ::1 - - [12/Mar/2026:01:25:58 +0000] "DELETE /api/meetings/83481759510 HTTP/1.1" 404 58 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:26:12 [debug]: Cache HIT: zoom:meetings:list
+2026-03-12 04:26:12 [info]: Meetings fetched: 1 results
+2026-03-12 04:26:12 [http]: ::1 - - [12/Mar/2026:01:26:12 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:26:13 [debug]: Cache HIT: zoom:meetings:list
+2026-03-12 04:26:13 [info]: Meetings fetched: 1 results
+2026-03-12 04:26:13 [http]: ::1 - - [12/Mar/2026:01:26:13 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:26:15 [info]: Zoom: Deleting meeting 83481759510
+2026-03-12 04:26:15 [debug]: Cache HIT: zoom:access_token
+2026-03-12 04:26:15 [error]: Zoom API Error [404]: Meeting not found. | {"url":"/api/meetings/83481759510","method":"DELETE","zoomCode":3001}
+2026-03-12 04:26:15 [http]: ::1 - - [12/Mar/2026:01:26:15 +0000] "DELETE /api/meetings/83481759510 HTTP/1.1" 404 58 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:28:22 [debug]: Cache EXPIRED: zoom:meetings:list
+2026-03-12 04:28:22 [info]: Zoom: Fetching meetings list
+2026-03-12 04:28:22 [debug]: Cache HIT: zoom:access_token
+2026-03-12 04:28:23 [debug]: Cache SET: zoom:meetings:list (TTL: 60s)
+2026-03-12 04:28:23 [info]: Meetings fetched: 1 results
+2026-03-12 04:28:23 [http]: ::1 - - [12/Mar/2026:01:28:23 +0000] "GET /api/meetings HTTP/1.1" 200 346 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:28:24 [debug]: Cache HIT: zoom:meetings:list
+2026-03-12 04:28:24 [info]: Meetings fetched: 1 results
+2026-03-12 04:28:24 [http]: ::1 - - [12/Mar/2026:01:28:24 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:34:24 [info]: 🚀 Server running on http://localhost:3001
+2026-03-12 04:34:24 [info]: 📋 Environment: development
+2026-03-12 04:34:24 [info]: 🔗 Accepting requests from: http://localhost:5173
+2026-03-12 04:35:09 [info]: 🚀 Server running on http://localhost:3001
+2026-03-12 04:35:09 [info]: 📋 Environment: development
+2026-03-12 04:35:09 [info]: 🔗 Accepting requests from: http://localhost:5173
+2026-03-12 04:35:44 [info]: Zoom: Fetching meetings list
+2026-03-12 04:35:44 [info]: Zoom: Fetching new access token
+2026-03-12 04:35:45 [debug]: Cache SET: zoom:access_token (TTL: 3500s)
+2026-03-12 04:35:46 [debug]: Cache SET: zoom:meetings:list (TTL: 30s)
+2026-03-12 04:35:46 [info]: Meetings fetched: 1 results
+2026-03-12 04:35:46 [http]: ::1 - - [12/Mar/2026:01:35:46 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:35:46 [debug]: Cache HIT: zoom:meetings:list
+2026-03-12 04:35:46 [info]: Meetings fetched: 1 results
+2026-03-12 04:35:46 [http]: ::1 - - [12/Mar/2026:01:35:46 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:36:16 [info]: 🚀 Server running on http://localhost:3001
+2026-03-12 04:36:16 [info]: 📋 Environment: development
+2026-03-12 04:36:16 [info]: 🔗 Accepting requests from: http://localhost:5173
+2026-03-12 04:36:30 [info]: Zoom: Fetching meetings list
+2026-03-12 04:36:30 [info]: Zoom: Fetching new access token
+2026-03-12 04:36:31 [debug]: Cache SET: zoom:access_token (TTL: 3500s)
+2026-03-12 04:36:32 [debug]: Cache SET: zoom:meetings:list (TTL: 30s)
+2026-03-12 04:36:32 [info]: Meetings fetched: 1 results
+2026-03-12 04:36:32 [http]: ::1 - - [12/Mar/2026:01:36:32 +0000] "GET /api/meetings HTTP/1.1" 200 346 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:36:32 [debug]: Cache HIT: zoom:meetings:list
+2026-03-12 04:36:32 [info]: Meetings fetched: 1 results
+2026-03-12 04:36:32 [http]: ::1 - - [12/Mar/2026:01:36:32 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:36:34 [debug]: Cache HIT: zoom:meetings:list
+2026-03-12 04:36:34 [info]: Meetings fetched: 1 results
+2026-03-12 04:36:34 [http]: ::1 - - [12/Mar/2026:01:36:34 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:36:36 [info]: Zoom: Deleting meeting 81826425694
+2026-03-12 04:36:36 [debug]: Cache HIT: zoom:access_token
+2026-03-12 04:36:37 [debug]: Cache INVALIDATED: zoom:meetings:list (1 keys)
+2026-03-12 04:36:37 [info]: Meeting deleted: ID 81826425694 (alreadyDeleted=false)
+2026-03-12 04:36:37 [http]: ::1 - - [12/Mar/2026:01:36:37 +0000] "DELETE /api/meetings/81826425694 HTTP/1.1" 200 92 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:36:50 [info]: Zoom: Creating meeting "test" at 2026-03-12T04:36:00
+2026-03-12 04:36:50 [debug]: Cache HIT: zoom:access_token
+2026-03-12 04:36:52 [info]: Meeting created: ID 88455090776
+2026-03-12 04:36:52 [http]: ::1 - - [12/Mar/2026:01:36:52 +0000] "POST /api/meetings HTTP/1.1" 201 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:37:00 [info]: Zoom: Fetching meetings list
+2026-03-12 04:37:00 [debug]: Cache HIT: zoom:access_token
+2026-03-12 04:37:00 [debug]: Cache SET: zoom:meetings:list (TTL: 30s)
+2026-03-12 04:37:00 [info]: Meetings fetched: 1 results
+2026-03-12 04:37:00 [http]: ::1 - - [12/Mar/2026:01:37:00 +0000] "GET /api/meetings HTTP/1.1" 200 338 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:37:03 [info]: Zoom: Deleting meeting 88455090776
+2026-03-12 04:37:03 [debug]: Cache HIT: zoom:access_token
+2026-03-12 04:37:03 [debug]: Cache INVALIDATED: zoom:meetings:list (1 keys)
+2026-03-12 04:37:03 [info]: Meeting deleted: ID 88455090776 (alreadyDeleted=false)
+2026-03-12 04:37:03 [http]: ::1 - - [12/Mar/2026:01:37:03 +0000] "DELETE /api/meetings/88455090776 HTTP/1.1" 200 92 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:37:30 [info]: Zoom: Fetching meetings list
+2026-03-12 04:37:30 [debug]: Cache HIT: zoom:access_token
+2026-03-12 04:37:30 [debug]: Cache SET: zoom:meetings:list (TTL: 30s)
+2026-03-12 04:37:30 [info]: Meetings fetched: 0 results
+2026-03-12 04:37:30 [http]: ::1 - - [12/Mar/2026:01:37:30 +0000] "GET /api/meetings HTTP/1.1" 200 36 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:38:00 [debug]: Cache HIT: zoom:meetings:list
+2026-03-12 04:38:00 [info]: Meetings fetched: 0 results
+2026-03-12 04:38:00 [http]: ::1 - - [12/Mar/2026:01:38:00 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:38:30 [debug]: Cache EXPIRED: zoom:meetings:list
+2026-03-12 04:38:30 [info]: Zoom: Fetching meetings list
+2026-03-12 04:38:30 [debug]: Cache HIT: zoom:access_token
+2026-03-12 04:38:31 [debug]: Cache SET: zoom:meetings:list (TTL: 30s)
+2026-03-12 04:38:31 [info]: Meetings fetched: 0 results
+2026-03-12 04:38:31 [http]: ::1 - - [12/Mar/2026:01:38:31 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:39:00 [debug]: Cache HIT: zoom:meetings:list
+2026-03-12 04:39:00 [info]: Meetings fetched: 0 results
+2026-03-12 04:39:00 [http]: ::1 - - [12/Mar/2026:01:39:00 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:39:30 [debug]: Cache EXPIRED: zoom:meetings:list
+2026-03-12 04:39:30 [info]: Zoom: Fetching meetings list
+2026-03-12 04:39:30 [debug]: Cache HIT: zoom:access_token
+2026-03-12 04:39:31 [debug]: Cache SET: zoom:meetings:list (TTL: 30s)
+2026-03-12 04:39:31 [info]: Meetings fetched: 0 results
+2026-03-12 04:39:31 [http]: ::1 - - [12/Mar/2026:01:39:31 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:40:18 [debug]: Cache EXPIRED: zoom:meetings:list
+2026-03-12 04:40:18 [info]: Zoom: Fetching meetings list
+2026-03-12 04:40:18 [debug]: Cache HIT: zoom:access_token
+2026-03-12 04:40:19 [debug]: Cache SET: zoom:meetings:list (TTL: 30s)
+2026-03-12 04:40:19 [info]: Meetings fetched: 0 results
+2026-03-12 04:40:19 [http]: ::1 - - [12/Mar/2026:01:40:19 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:41:18 [debug]: Cache EXPIRED: zoom:meetings:list
+2026-03-12 04:41:18 [info]: Zoom: Fetching meetings list
+2026-03-12 04:41:18 [debug]: Cache HIT: zoom:access_token
+2026-03-12 04:41:19 [debug]: Cache SET: zoom:meetings:list (TTL: 30s)
+2026-03-12 04:41:19 [info]: Meetings fetched: 0 results
+2026-03-12 04:41:19 [http]: ::1 - - [12/Mar/2026:01:41:19 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 04:42:18 [debug]: Cache EXPIRED: zoom:meetings:list
+2026-03-12 04:42:18 [info]: Zoom: Fetching meetings list
+2026-03-12 04:42:18 [debug]: Cache HIT: zoom:access_token
+2026-03-12 04:42:19 [debug]: Cache SET: zoom:meetings:list (TTL: 30s)
+2026-03-12 04:42:19 [info]: Meetings fetched: 0 results
+2026-03-12 04:42:19 [http]: ::1 - - [12/Mar/2026:01:42:19 +0000] "GET /api/meetings HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-12 19:20:51 [debug]: Cache EXPIRED: zoom:meetings:list
+2026-03-12 19:20:51 [info]: Zoom: Fetching meetings list
+2026-03-12 19:20:51 [debug]: Cache EXPIRED: zoom:access_token
+2026-03-12 19:20:51 [info]: Zoom: Fetching new access token
+2026-03-12 19:21:05 [error]: Error: getaddrinfo ENOTFOUND zoom.us
+    at AxiosError.from (D:\Node\zoom-manager\zoom-manager\server\node_modules\axios\dist\node\axios.cjs:962:24)
+    at RedirectableRequest.handleRequestError (D:\Node\zoom-manager\zoom-manager\server\node_modules\axios\dist\node\axios.cjs:3794:29)
+    at RedirectableRequest.emit (node:events:508:28)
+    at eventHandlers.<computed> (D:\Node\zoom-manager\zoom-manager\server\node_modules\follow-redirects\index.js:49:24)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (D:\Node\zoom-manager\zoom-manager\server\node_modules\axios\dist\node\axios.cjs:5110:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchAccessToken (D:\Node\zoom-manager\zoom-manager\server\src\services\zoom.service.js:19:20)
+    at async getAccessToken (D:\Node\zoom-manager\zoom-manager\server\src\services\zoom.service.js:44:17)
+    at async zoomClient (D:\Node\zoom-manager\zoom-manager\server\src\services\zoom.service.js:53:17)
+    at async Object.listMeetings (D:\Node\zoom-manager\zoom-manager\server\src\services\zoom.service.js:76:18)
+    at async D:\Node\zoom-manager\zoom-manager\server\src\routes\meetings.js:13:22 | {"url":"/api/meetings","method":"GET"}
+2026-03-12 19:21:06 [http]: ::1 - - [12/Mar/2026:16:21:06 +0000] "GET /api/meetings HTTP/1.1" 500 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
